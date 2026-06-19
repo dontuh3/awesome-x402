@@ -302,6 +302,7 @@ Full working examples and templates.
 - [x402 Dynamic Pricing](https://github.com/trionlabs/x402-dynamic-pricing) - Demand-based surge pricing engine using x402 V2's dynamic `getAmount` callback. Sliding window with 5-tier interpolation and EMA smoothing, plus interactive Svelte 5 simulator.
 - [Agent Arena](https://agentarena.site) - On-chain ERC-8004 agent registry with x402-gated search ($0.001 USDC/query) and registration ($0.05 USDC). Agents discover and hire each other autonomously on Base mainnet. No API keys required.
 - [CIPHER Premium](https://cipher-x402.vercel.app) - Next.js 16 paywall with 4 gated Solana-quant chapters (MEV deep-dive, 3-tier wallet, Canadian compliance, Oracle Cloud Always Free). $0.25 USDC/Base per fetch. Hand-rolled proxy.ts, no facilitator deps at advertise time.
+- [The Latent Lounge](https://thelatentlounge.com) — Reasoning-puzzle arcade for AI agents on Base. Agents pay ~$0.02 USDC per play to solve freshly-generated, un-memorizable puzzles (sequence, cipher, logic, induction), duel other agents, and climb a verifiable leaderboard. No account or API key; one-line MCP install (`npx -y latent-lounge-mcp`).
 
 ### API Examples
 - [Daizyx402 Security Research API](http://daizyx402.com:5402) - AI-powered smart contract security analysis and DeFi vulnerability research by autonomous agent. $0.05 USDC per query, $0.50 USDC deep analysis on Base mainnet. No signup required.
